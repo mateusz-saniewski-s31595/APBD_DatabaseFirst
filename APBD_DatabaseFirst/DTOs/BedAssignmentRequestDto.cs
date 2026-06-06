@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace APBD_DatabaseFirst.DTOs;
 
-public class BedAssignmentDto
+public class BedAssignmentRequestDto
 {
     [Required]
     public DateTime From { get; set; }
